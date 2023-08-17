@@ -1,0 +1,23 @@
+{
+    "name": "ethanzway/iap",
+    "keywords": ["iap"],
+    "description": "IAP Provider",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ethan"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "*",
+        "nesbot/carbon": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ethanzway\\IAP\\": "src/"
+        }
+    }
+}
